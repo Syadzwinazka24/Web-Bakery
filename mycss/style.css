@@ -1,0 +1,782 @@
+.desktop-1-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--secondary-color);
+  width: 1440px;
+  height: 99px;
+}
+
+.beranda,
+.debakery {
+  color: var(--main-color);
+}
+
+.debakery {
+  position: absolute;
+  top: 21px;
+  left: 100px;
+  font-size: var(--font-size-21xl);
+  display: inline-block;
+  width: 189px;
+  height: 57px;
+}
+
+.beranda {
+  position: relative;
+}
+
+.tentang {
+  position: relative;
+  font-weight: 500;
+}
+
+.beranda-parent {
+  position: absolute;
+  top: 38px;
+  left: calc(50% - 249px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px;
+  cursor: pointer;
+}
+.beranda-parent :hover {
+  color: #e68124;
+}
+
+.unsplashm9pzwmxm2rk-icon {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 1440px;
+  height: 674px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gabung {
+  position: relative;
+}
+
+.gabung-wrapper {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  border-radius: var(--br-3xs);
+  background-color: var(--main-color);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lg) var(--padding-15xl);
+  cursor: pointer;
+}
+.gabung-wrapper:hover {
+  background-color: rgb(232, 213, 161);
+  color: black;
+  opacity: 70%;
+}
+
+.jelajahi-kelezatan-roti {
+  margin: 0;
+}
+
+.jelajahi-kelezatan-roti-container {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 736px;
+  height: 155px;
+  flex-shrink: 0;
+}
+
+.debakery1 {
+  font-weight: 600;
+}
+
+.debakery-tempatnya-menghubung-container {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  width: 611px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.jelajahi-kelezatan-roti-bersam-parent {
+  position: absolute;
+  top: 86px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11px;
+  font-size: 60px;
+  color: var(--color-white);
+}
+
+.frame-child,
+.hero-page {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+}
+
+.hero-page {
+  top: 98px;
+  height: 675px;
+  overflow: hidden;
+  color: var(--secondary-color);
+}
+
+.frame-child {
+  top: 0;
+  border-radius: 0 0 var(--br-81xl) var(--br-81xl);
+  background-color: #020204;
+  height: 685px;
+}
+
+.gabung-container {
+  position: absolute;
+  top: 536px;
+  left: 651px;
+  border-radius: var(--br-3xs);
+  background-color: var(--main-color);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lg) var(--padding-15xl);
+  cursor: pointer;
+}
+.gabung-container:hover {
+  background-color: rgb(232, 213, 161);
+  color: black;
+  opacity: 70%;
+}
+
+.debakery3,
+.sejak-tahun-2020 {
+  font-family: var(--font-inter);
+}
+
+.debakery3 {
+  font-weight: 600;
+}
+
+.sejak-tahun-2020-container {
+  position: relative;
+  font-size: 25px;
+  display: inline-block;
+  width: 1180px;
+}
+
+.debakery-sahabat-bakery-favori-parent {
+  position: absolute;
+  top: 131px;
+  left: 134px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 57px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--white);
+}
+
+.gabung-frame,
+.rectangle-parent {
+  position: absolute;
+  overflow: hidden;
+}
+
+.rectangle-parent {
+  top: 773px;
+  left: 0;
+  width: 1440px;
+  height: 685px;
+  color: var(--secondary-color);
+}
+
+.gabung-frame {
+  top: 669px;
+  left: 646px;
+  border-radius: var(--br-3xs);
+  background-color: var(--main-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lg) var(--padding-15xl);
+}
+
+.frame-item {
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 295px;
+  height: 433px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 0;
+}
+
+.b,
+.gabung-partner-bisnis-container {
+  position: absolute;
+  margin: 0 !important;
+  top: 235px;
+  left: 27px;
+  display: inline-block;
+  z-index: 1;
+}
+
+.gabung-partner-bisnis-container {
+  top: 296px;
+  font-size: var(--font-size-11xl);
+  z-index: 2;
+}
+
+.rectangle-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+
+.frame-inner {
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 298px;
+  height: 433px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 0;
+}
+
+.gabung-partner-bisnis-container1,
+.juta {
+  position: absolute;
+  margin: 0 !important;
+  top: 235px;
+  left: 32.91px;
+  display: inline-block;
+  width: 168.65px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.gabung-partner-bisnis-container1 {
+  top: 296px;
+  left: 39.08px;
+  font-size: var(--font-size-11xl);
+  width: 211.84px;
+  z-index: 2;
+}
+
+.rectangle-icon {
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 296px;
+  height: 433px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 0;
+}
+
+.b1 {
+  top: 235px;
+  left: 39px;
+  z-index: 1;
+}
+
+.b1,
+.b2,
+.gabung-partner-driver-container,
+.karyawan-kami {
+  position: absolute;
+  margin: 0 !important;
+  display: inline-block;
+}
+
+.gabung-partner-driver-container {
+  top: 296px;
+  left: 39px;
+  font-size: var(--font-size-11xl);
+  z-index: 2;
+}
+
+.b2,
+.karyawan-kami {
+  top: 235px;
+  left: 36px;
+  z-index: 1;
+}
+
+.karyawan-kami {
+  top: 296px;
+  font-size: var(--font-size-11xl);
+  z-index: 2;
+}
+
+.frame-group {
+  position: absolute;
+  top: 178px;
+  left: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 29px;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+}
+
+.skala-kami {
+  position: absolute;
+  top: 64px;
+  left: 611px;
+  font-size: var(--font-size-21xl);
+  text-align: center;
+}
+
+.frame-child2,
+.frame-parent {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+}
+
+.frame-parent {
+  top: 1458px;
+  height: 803px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--secondary-color);
+  font-family: var(--font-inter);
+}
+
+.frame-child2 {
+  top: 0;
+  height: 775px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ukir-keberhasilan-bersama-container {
+  position: absolute;
+  top: 155px;
+  left: calc(50% - 184px);
+  text-align: center;
+}
+
+.rectangle-div {
+  position: absolute;
+  top: 375px;
+  left: 0;
+  border-radius: var(--br-81xl) var(--br-81xl) 0 0;
+  background-color: var(--secondary-color);
+  width: 1440px;
+  height: 628px;
+}
+
+.group-child {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  border-radius: var(--br-xl);
+  width: 401px;
+  height: 433px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gabung-partner-driver-container1,
+.group-item {
+  position: absolute;
+  top: 71px;
+  left: 30px;
+}
+
+.group-item {
+  top: 160px;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-100);
+  width: 393px;
+  height: 265px;
+}
+
+.bergabunglah-dengan-tim-container {
+  position: absolute;
+  top: 179px;
+  left: 30px;
+  font-size: var(--font-size-base);
+  color: var(--white);
+  display: inline-block;
+  width: 325px;
+}
+
+.vector-icon {
+  position: relative;
+  width: 12.57px;
+  height: 22px;
+}
+
+.selengkapnya-parent {
+  position: absolute;
+  top: 360px;
+  left: 0;
+  border-radius: 0 0 var(--br-xl) var(--br-xl);
+  background-color: var(--white);
+  width: 393px;
+  height: 65px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-lg) var(--padding-15xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+.selengkapnya-parent :hover {
+  color: #e68124;
+}
+
+.group-div {
+  position: relative;
+  width: 393px;
+  height: 425px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+}
+
+.group-child1,
+.group-inner {
+  position: absolute;
+  border-radius: var(--br-xl);
+}
+
+.group-inner {
+  top: 0;
+  left: 0;
+  width: 393px;
+  height: 425px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.group-child1 {
+  top: 160px;
+  left: 1px;
+  background-color: var(--color-gray-100);
+  width: 391.01px;
+  height: 220.83px;
+}
+
+.gabung-partner-bisnis-container2,
+.jika-anda-adalah-container {
+  position: absolute;
+  top: 177px;
+  left: 30px;
+  display: inline-block;
+  width: 323px;
+  height: 154px;
+}
+
+.gabung-partner-bisnis-container2 {
+  top: 71px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  width: 231px;
+  height: 74px;
+}
+
+.rectangle-parent2 {
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 393px;
+  height: 425px;
+}
+
+.group-child3 {
+  position: absolute;
+  top: 158px;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-100);
+  width: 393px;
+  height: 220.83px;
+}
+
+.di-debakery-kami-container,
+.gabung-developer-debakery-container {
+  position: absolute;
+  top: 177px;
+  left: 29px;
+  display: inline-block;
+  width: 325px;
+  height: 110.83px;
+}
+
+.gabung-developer-debakery-container {
+  top: 71px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  width: 297px;
+  height: 77px;
+}
+
+.gabung-wrapper1,
+.group-parent {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+.group-parent {
+  top: 304px;
+  left: 99px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 31px;
+  font-size: var(--font-size-base);
+}
+
+.gabung-wrapper1 {
+  top: 795px;
+  left: 661px;
+  border-radius: var(--br-3xs);
+  background-color: var(--main-color);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lg) var(--padding-15xl);
+  font-size: var(--font-size-xl);
+  color: var(--secondary-color);
+}
+
+.debakery7,
+.frame-section {
+  position: absolute;
+  font-size: var(--font-size-21xl);
+}
+
+.frame-section {
+  top: 2261px;
+  left: 0;
+  width: 1440px;
+  height: 939px;
+  overflow: hidden;
+  text-align: left;
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+
+.debakery7 {
+  top: 3264px;
+  left: 100px;
+  display: inline-block;
+  color: var(--main-color);
+  width: 189px;
+  height: 57px;
+}
+
+.about-us {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 120px;
+}
+
+.impact,
+.materials,
+.our-story {
+  position: relative;
+  display: inline-block;
+  width: 68px;
+}
+
+.impact,
+.materials {
+  width: 108px;
+}
+
+.materials {
+  width: 101px;
+}
+
+.about-us-parent,
+.our-story-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.our-story-parent {
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-mini);
+}
+
+.about-us-parent {
+  width: 90px;
+  gap: var(--gap-lg);
+}
+
+.customer-service {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 176px;
+}
+
+.contact,
+.faqs,
+.returns-exchanges {
+  position: relative;
+  display: inline-block;
+  width: 99px;
+}
+
+.faqs,
+.returns-exchanges {
+  width: 40px;
+}
+
+.returns-exchanges {
+  width: 155px;
+}
+
+.customer-service-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+
+.follow-us {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 114px;
+}
+
+.facebook,
+.instagram,
+.twitter {
+  position: relative;
+  display: inline-block;
+  width: 71px;
+}
+
+.facebook,
+.twitter {
+  width: 70px;
+}
+
+.twitter {
+  width: 91px;
+}
+
+.follow-us-parent {
+  width: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+
+.frame-container {
+  position: absolute;
+  top: 3284px;
+  left: 706px;
+  width: 636px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-black);
+  cursor: pointer;
+}
+
+.logosgoogle-play-icon {
+  position: relative;
+  width: 36.18px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.logosgoogle-play-icon-parent {
+  position: absolute;
+  top: 3336px;
+  left: 101px;
+  border-radius: var(--br-3xs);
+  background-color: var(--secondary-color);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px var(--padding-3xl);
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.logosgoogle-play-icon-parent :hover {
+  color: #e68124;
+}
+
+.logosapple-app-store-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.logosapple-app-store-parent {
+  position: absolute;
+  top: 3336px;
+  left: 316px;
+  border-radius: var(--br-3xs);
+  background-color: var(--secondary-color);
+  height: 64px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 9px var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-mini);
+  cursor: pointer;
+}
+.logosapple-app-store-parent :hover {
+  color: #e68124;
+}
+
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 3494px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}/*# sourceMappingURL=style.css.map */
